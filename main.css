@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background-color: purple;
+  grid-auto-rows: minmax(auto);
+}
+.wrapper div{
+  border:1px #black;
+  padding: 10px;
+}
+
+.picture{
+  display: flex;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: space-between;
+  flex:1;
+}
+
+
+body{
+  background-image: url("images/bg_placeholder.jpg");
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+}
+header {
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  color: midnightblue;
+}
+
+p {
+  font-family: 'Crete Round', serif;
+  color: midnightblue;
+}
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: yellow;
+  padding: 10px;
