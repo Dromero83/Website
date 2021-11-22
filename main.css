@@ -2,32 +2,32 @@
 /* CSS Document */
 
 .wrapper {
-  display: flex;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  background-color: purple;
-  grid-auto-rows: minmax(auto);
+  background-color: blue;
 }
-.wrapper div{
-  border:1px #black;
-  padding: 10px;
-}
-
-.picture{
-  display: flex;
+.flex-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  justify-content: space-between;
-  flex:1;
+}
+.flex-wrapper div{
+  background-color: pink;
+  color: purple;
+  padding: 10px;
+  text-align: center;
 }
 
 
 body{
-  background-image: url("images/bg_placeholder.jpg");
+  background-color: #cccccc;
+  background-image: linear-gradient(white, #FFEEA6);
   background-repeat: repeat-x;
   background-attachment: scroll;
 }
 header {
-  background-color: pink;
+  background-color: white;
   text-align: center;
   padding: 10px;
 }
