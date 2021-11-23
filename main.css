@@ -2,34 +2,67 @@
 /* CSS Document */
 
 .wrapper {
+  background-color: #cccccc;
+  background-image: linear-gradient(white, #FFEEA6);
+  display: flex;
+  flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
   background-color: blue;
 }
 .flex-wrapper {
-  display: grid;
+  display: flex;
+  align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
 .flex-wrapper div{
-  background-color: pink;
+  flex: 1;
   color: purple;
   padding: 10px;
-  text-align: center;
 }
 
-
 body{
-  background-color: #cccccc;
-  background-image: linear-gradient(white, #FFEEA6);
+  background-color: #lightgray
   background-repeat: repeat-x;
   background-attachment: scroll;
 }
+
 header {
   background-color: white;
   text-align: center;
   padding: 10px;
+}
+
+ul {
+  width: 90%;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3283FA;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #61A9F7;
+}
+.active {
+  background-color: #FAAD14;
 }
 h1 {
   font-family: 'Lobster', cursive;
@@ -41,7 +74,7 @@ p {
   color: midnightblue;
 }
 footer{
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   text-align: center;
-  background-color: yellow;
   padding: 10px;
