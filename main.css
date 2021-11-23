@@ -59,17 +59,14 @@ p {
 .flex-wrapper {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
   align-items: flex-start;
-  display: flex;
 }
 .flex-wrapper div{
   flex: 1;
   color: purple;
-  padding: 10px;
 }
 
 img {
