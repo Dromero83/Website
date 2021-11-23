@@ -1,30 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.wrapper {
-  background-color: #cccccc;
-  background-image: linear-gradient(white, #FFEEA6);
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: blue;
-}
-.flex-wrapper {
-  display: flex;
-  align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
-}
-.flex-wrapper div{
-  flex: 1;
-  color: purple;
-  padding: 10px;
-}
-
 body{
   background-color: #lightgray
   background-repeat: repeat-x;
@@ -73,6 +49,33 @@ p {
   font-family: 'Crete Round', serif;
   color: midnightblue;
 }
+
+.wrapper {
+  background-color: #cccccc;
+  background-image: linear-gradient(white, #FFEEA6);
+  width: 90%;
+  margin: 0 auto;
+}
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+.flex-wrapper div{
+  flex: 1;
+  color: purple;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
 footer{
   width: 90%;
   margin: 0 auto;
