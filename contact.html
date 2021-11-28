@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Final Project</title>
+    <title>Contact- Diana Romero's Portfolio</title>
     <link href="main.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>My name is Diana Romero. Welcome to my art portfolio!</h1>
+      <button onclick="myFunction()">Change it up</button>
     </header>
     <ul>
   <li><a href="index.html">Home</a></li>
@@ -18,11 +19,17 @@
     </ul>
   <div class="wrapper">
     <div><h1 style="text-align:center;">Contact</h1></div>
-    <div><p style="text-align:center;">if you wish to contact me for business purposes, email me at <a href="mailto:@Dromero0816@gmail.com">@Dromero0816@gmail.com</a>.</p>
-      <div>
-      <footer>Copywright 2021</footer>
-      </div>
+    <div><p>if you wish to contact me for business purposes, email me at <a href="mailto:@Dromero0816@gmail.com">@Dromero0816@gmail.com</a>.</p>
+  </div>
+  <div>
+  <footer>Copywright 2021</footer>
   </div>
 </div>
   </body>
+  <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("alt-bg");
+}
+</script>
 </html>

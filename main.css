@@ -2,21 +2,22 @@
 /* CSS Document */
 
 body{
-  background-color: #lightgray
-  background-repeat: repeat-x;
+  width: 90%;
+  margin: auto;
+  background-color: #cccccc;
+  background-image: linear-gradient(#FFEEA6, white);
   background-attachment: scroll;
 }
 
 header {
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.7);
   text-align: center;
   padding: 10px;
 }
 
 ul {
-  width: 90%;
   list-style-type: none;
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
   overflow: hidden;
   background-color: #3283FA;
@@ -43,24 +44,24 @@ li a:hover {
 h1 {
   font-family: 'Lobster', cursive;
   color: midnightblue;
+  padding:20px;
 }
 
 p {
   font-family: 'Crete Round', serif;
   color: midnightblue;
   text-align: center;
-  padding:60px;
+  padding:30px;
 }
 
 .wrapper {
-  background-color: #cccccc;
-  background-image: linear-gradient(#FFEEA6, white);
-  width: 90%;
-  margin: 0 auto;
+  background-color: rgb(255, 255, 255, 0.7);
+  margin: auto;
 }
 .flex-wrapper {
   display: flex;
   flex-wrap: wrap;
+  padding:10px;
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
   align-items: flex-start;
@@ -68,11 +69,13 @@ p {
 .flex-wrapper div{
   flex: 1;
 }
-
+.alt-bg {
+  background-color: white;
+  background-image: linear-gradient(mediumpurple, indigo);
+}
 footer{
   font-family: 'Crete Round', serif;
   color: midnightblue;
-  bottom: 0;
-  width: 100%;
+  margin: auto;
   text-align: center;
   padding: 10px;

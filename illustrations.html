@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Final Project</title>
+    <title>Illustrations- Diana Romero's Portfolio</title>
     <link href="main.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>My name is Diana Romero. Welcome to my art portfolio!</h1>
+      <button onclick="myFunction()">Change it up</button>
     </header>
     <ul>
   <li><a href="index.html">Home</a></li>
@@ -20,15 +21,21 @@
     <h1>Illustrations</h1>
     <div class="flex-wrapper">
       <div><img src="images\art\Stars are nice.png" title="Stars are nice" alt="Stars are nice" style="width:200px;height:auto;"></img></div>
+      <div><img src="images\art\tol.png" title="Lucille" alt="Lucille" style="width:200px;height:auto;"></img></div>
       <div><img src="images\art\Be careful chirren that's a lotta saturation.png" title="Be careful chirren that's a lotta saturation" alt="Be careful chirren that's a lotta saturation" style="width:200px;height:auto;"></img></div>
       <div><img src="images\art\Distant Memories.png" title="Distant Memories" alt="Distant Memories" style="width:200px;height:auto;"></img></div>
       <div><img src="images\art\Victor Van Dort.png" title="Victor Van Dort" alt="Victor Van Dort" style="width:200px;height:auto;"></img></div>
       <div><img src="images\art\Inktober Practice.png" title="Inktober Practice" alt="Inktober Practice" style="width:200px;height:auto;"></img></div>
       <div><img src="images\art\wreath.png" title="wreath" alt="wreath" width="200" style="width:200px;height:auto;"></img></div>
-      <div><img src="images/art_placeholder.jpg" alt="placeholder" style="width:200px;height:auto;"></img></div>
-      <div><img src="images/art_placeholder.jpg" alt="placeholder" style="width:200px;height:auto;"></img></div>
+      <div><img src="images\art\oh demon.png" title="Oh Demon" alt="Oh Demon" style="width:200px;height:auto;"></img></div>
     </div>
     <footer>Copywright 2021</footer>
   </div>
   </body>
+  <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("alt-bg");
+}
+</script>
 </html>

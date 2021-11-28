@@ -2,12 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Final Project</title>
+    <title>About- Diana Romero's Portfolio</title>
     <link href="main.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>My name is Diana Romero. Welcome to my art portfolio!</h1>
+      <button onclick="myFunction()">Change it up</button>
     </header>
     <ul>
   <li><a href="index.html">Home</a></li>
@@ -18,13 +19,22 @@
   <li style="float:right"><a href="coding.html">:)</a></li>
     </ul>
   <div class="wrapper">
-    <div><h1 style="text-align:center;padding:10px">About Me</h1></div>
+    <div><h1 style="text-align:center;">About Me</h1></div>
     <div><p>My name is Diana Romero, I'm a freelance cartoonist, illustrator, and graphics Designer. I currently
 attend Northwest Vista Community College where I'm working to get an Ascociates of Applied Science in Digital Media. I've been doing
 Freelance since 2015, but it's only in the recent years have I decided to take my skills a step further.</p>
+    <p>My favorite things to draw are cartoons and portraits, but I'm up for any task. I love incorperating things I've learned into my
+    art, and I'm always looking for ways to improve.</p>
+    </div>
     <div>
     <footer>Copywright 2021</footer>
     </div>
-    </div>
   </body>
+  <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("alt-bg");
+}
+</script>
+  </html>
 </html>
